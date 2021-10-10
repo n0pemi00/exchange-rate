@@ -2,7 +2,7 @@ import './App.css';
 import {useState} from 'react';
 
 const URL = 'http://api.exchangeratesapi.io/v1/latest?access_key='
-const API_KEY = '121567e1abfdefc9634150a23fba0f69'
+const API_KEY = ''
 
 function App() {
   const [eur,setEur] = useState(0);
